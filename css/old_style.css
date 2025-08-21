@@ -10,36 +10,6 @@
 
 /* benefits */
 
-.benefits {
-  padding: 120px 0;
-}
-
-.benefits-list {
-  display: flex;
-  gap: 24px;
-}
-.benefits-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.benefits-icon {
-  width: 100%;
-  padding: 24px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  margin-bottom: 8px;
-  text-align: center;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-}
-
-.benefits-headers {
-  margin-bottom: 8px;
-}
-
 /* our team */
 
 .team {
