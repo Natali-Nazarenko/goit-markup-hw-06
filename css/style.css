@@ -474,6 +474,7 @@ img {
 }
 
 /* benefits */
+
 .benefits-icon {
   display: none;
 }
@@ -552,5 +553,87 @@ img {
 
   .benefits-text {
     font-weight: 400;
+  }
+}
+
+/* our team */
+
+.team {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #f4f4fd;
+}
+.team-main-header {
+  margin-bottom: 72px;
+  text-transform: capitalize;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 12px;
+  gap: 72px;
+}
+
+.team-item {
+  border-radius: 0 0 4px 4px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-image {
+  max-width: 100%;
+}
+
+.team-info {
+  margin: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-link-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.social-link-item {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 92px;
+    gap: 72px;
+    column-gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team {
+    padding: 120px 0;
+  }
+  .team-list {
+    padding: 0;
+    gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .social-link:hover,
+  .social-link:focus {
+    background-color: #404bbf;
   }
 }
